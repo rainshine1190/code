@@ -12,6 +12,7 @@ session_opts = {
     'session.auto': True
 }
 
+
 @get('/index/')
 def callback():
     return 'Hello World!'
